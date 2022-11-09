@@ -4,4 +4,4 @@ COPY target/hello-world-0.0.1-SNAPSHOT /app.war
 
 EXPOSE 8666
 
-ENTRYPOINT ["java", "-war", "/app.war"]
+ENTRYPOINT ["java", "-jar", "/app.war"]
